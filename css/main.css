@@ -1,16 +1,19 @@
+.ref > a {
+  border-bottom: 0 !important;
+}
 :root {
-  --body-bg-color: #faf1e3;
-  --content-bg-color: #fffbf5;
+  --body-bg-color: #f5eee4;
+  --content-bg-color: #fffdfa;
   --card-bg-color: #f5f5f5;
   --text-color: #8a6b4d;
   --blockquote-color: #666;
-  --link-color: #d18f00;
+  --link-color: #db9f44;
   --link-hover-color: #8a4e00;
   --brand-color: #fff;
   --brand-hover-color: #fff;
   --table-row-odd-bg-color: #f9f9f9;
   --table-row-hover-bg-color: #f5f5f5;
-  --menu-item-bg-color: #faf1e3;
+  --menu-item-bg-color: #f5eee4;
   --theme-color: #f7b44f;
   --btn-default-bg: #fff;
   --btn-default-color: #8a6b4d;
@@ -2651,10 +2654,10 @@ header.header {
 }
 .post-body h1,
 .post-body h2 {
-  border-bottom: 1px solid #faf1e3;
+  border-bottom: 1px solid #f5eee4;
 }
 .post-body h3 {
-  border-bottom: 1px dotted #faf1e3;
+  border-bottom: 1px dotted #f5eee4;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .main-inner {
